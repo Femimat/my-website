@@ -1,0 +1,332 @@
+body {
+    margin: 0;
+    font-family: 'Dosis', sans-serif;
+}
+
+.side-menu {
+    position: fixed;
+    right: 30px;
+    top: 50%;
+    transform: translateY(-73px);   
+}
+
+ul {
+    list-style: none;
+}
+
+.page-scroll {
+    display: flex;
+    flex-direction: row;
+}
+
+.side-menu ul li a span.dot {
+    display: block;
+    position: relative;
+    border-radius: 2em;
+    height: 10px;
+    width: 10px;
+    background-color: #dd5138;
+    margin-top: 16px;
+    margin: 13px;
+}
+
+.menu-title {
+    background: #dd5138;
+    display: none;
+    width: 70px;
+    position: relative;
+    color: #fff;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    line-height: 20px;
+    padding: 3px 10px;
+    border-radius: 3px;
+    text-transform: uppercase;
+    font-size: 13px;
+    text-align: right;
+}
+
+a {
+    text-decoration: none;
+}
+
+.img {
+    max-width: 180px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    background: #016cc7;
+}
+
+.container-header {
+    padding: 100px;
+    color: white;
+}
+
+.side-image {
+    padding: 80px;
+    margin-left: 20px;
+}
+
+.btn-wrapper {
+    margin-top: 70px; 
+}
+
+.btn {
+    background: #dd5138;
+    text-decoration: none;
+    padding: 15px 60px; 
+    color: #fff;
+}
+
+.title {
+    text-align: center;
+    padding: 30px;
+    font-weight: 350;
+    font-size: 30px;
+}
+
+.page {
+    display: flex;
+    flex-direction: row;
+    margin: 50px;
+    margin-left: 160px;
+    font-weight: 350;
+}
+
+.row h3 { 
+    font-weight: 350;
+    font-size: 24px;
+    margin: 20px 20px 10px; 
+    margin-left: 40px;
+}
+
+.row p {
+    margin: 0px 0px 10px;
+    width: 75%;
+    font-size: 16px;
+}
+
+#sec-title {
+    text-align: center;
+    padding: 30px;
+    font-weight: 350;
+    font-size: 30px;
+}
+
+.speaker-img {
+    max-width: 30%;
+    border-radius: 50%;
+    border: 4px solid #efefef;
+    margin-left: 110px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-gap: 3rem;
+    width: 80%; 
+    margin: 0 auto;
+    padding: 1rem 2rem;
+    line-height: 24.64px;
+}
+
+.grid-row h3 {
+    margin-left: 100px;
+    color: #404142;
+    font-size: 24px;
+}
+
+.grid-row p {
+    width: 78%;
+    margin-left: 37px;
+}
+
+.yellow-container {
+    background: #fcd93b;
+    height: 380px;
+}
+
+#ticket {
+    text-align: center;
+    font-size: 30px;
+    padding: 40px;
+}
+
+.roww {
+    display: flex;
+    flex-direction: row; 
+    justify-content: center;
+    line-height: 20px;
+    margin-top: -100px;
+}
+
+.split {
+    margin: 50px;
+    padding-bottom: 80px;
+}
+
+.split h3 {
+    font-size: 24px;
+}
+
+.price {
+    margin-left: 20px;
+    font-size: 54px;
+    color: #dd5138;
+}
+
+.btn-red {
+    background: #dd5138;
+    padding: 15px;
+    color: #ffffff;
+    margin-left: 10px;
+}
+
+#event {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 30px;
+    color: #404142;
+}
+
+.col-md {
+    margin-left: 150px;
+}
+
+.active {
+    margin: 20px;
+    color: #404142;
+}
+
+.media-object {
+    max-width: 90%;
+    margin-top: 20px;
+}
+
+.rowww {
+    display: flex;
+    flex-direction: row;
+}
+
+.row-dice {
+    margin-left: 100px;
+}
+
+.row-md {
+    display: flex;
+    flex-direction: row;
+    margin-left: 70px;
+    margin-top: 50px; 
+}
+
+.contact-form {
+    background: #404142;
+    color: #efefef;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#mag {
+    font-size: 24px;
+    padding: 30px;
+    margin-left: 250px;
+}
+
+.row-contact {
+    width: 90%;
+    padding: 5px;
+}
+
+.col-sm-3 {
+    padding: 30px;
+}
+
+.form-control {
+    width: 70%;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.label {
+    padding: 10px;
+}
+
+.form {
+    width: 71%;
+    padding: 14px;
+    border-radius: 5px;
+}
+
+.btn-yellow {
+    background-color: #fcd93b;
+    color: #2a2a2a;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.btn.disabled {
+    cursor: not-allowed;
+}
+
+.coll {
+    margin-left: 60%; 
+    text-align: center;
+}
+
+.twitter a {
+    color: #337ab7;
+}
+
+.twitter {
+    text-align: center;
+    width: 40%;
+    margin-top: 50px;
+} 
+
+.contact-fields {
+    width: 50%;
+}
+
+.row-footer {
+    justify-content: flex-end;
+    display: flex;
+    flex-direction: row;
+    background: #2a2a2a;
+    color: #ffffff;
+    padding: 20px;
+}
+
+.footer {
+    width: 80%;
+}
+
+.footer a {
+    color: #337ab7;
+}
+
+ul.footer-menu li a {
+    font-size: 12px;
+    color: #fcd93b;
+    padding-right: 20px;
+    width: 40%;
+}
+
+.col-md-6 li {
+    float: left;
+}
+
+
+
+
+
+
+
+
+
+
+
